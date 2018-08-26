@@ -500,6 +500,7 @@
 				GCC_PREFIX_HEADER = MachOBrowser/Mach_O_Browser_Prefix.pch;
 				INFOPLIST_FILE = "MachOBrowser/Mach_O_Browser-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.synchroma.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Mach-O Browser";
 				VERSIONING_SYSTEM = "";
@@ -519,6 +520,7 @@
 				GCC_PREFIX_HEADER = MachOBrowser/Mach_O_Browser_Prefix.pch;
 				INFOPLIST_FILE = "MachOBrowser/Mach_O_Browser-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.synchroma.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Mach-O Browser";
 				VERSIONING_SYSTEM = "";

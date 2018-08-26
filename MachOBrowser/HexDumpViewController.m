@@ -26,6 +26,8 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
+
     // Set a fixed-width font for the text dump view
     NSFontManager *fm = [NSFontManager sharedFontManager];
     NSFont *font = [fm fontWithFamily:@"Courier"

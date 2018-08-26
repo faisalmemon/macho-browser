@@ -15,6 +15,8 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
+
     // Set the various formatters for data fields
     HexFormatter *hexFormatter = [[HexFormatter alloc] init];
     AlignmentFormatter *alignmentFormatter = [[AlignmentFormatter alloc] init];

@@ -44,6 +44,8 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
+    
     // Load the view controllers
     simpleListViewController = [[NSViewController alloc] initWithNibName:SIMPLELISTVIEW_NIB_NAME
                                                                   bundle:nil];
